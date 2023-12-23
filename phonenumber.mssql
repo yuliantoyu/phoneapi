@@ -1,0 +1,22 @@
+-- Adminer 4.3.1 MySQL dump
+
+SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+SET NAMES utf8mb4;
+
+DROP TABLE IF EXISTS `phonenumber`;
+CREATE TABLE `phonenumber` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `numberphone` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `phonenumber` (`id`, `numberphone`) VALUES
+(26,	'1111/XL'),
+(35,	'45/Telkomsel'),
+(38,	'55/Telkomsel');
+
+-- 2023-12-23 11:38:17
