@@ -1,0 +1,88 @@
+[22-Dec-2023 01:46:37 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Redirect URI must be absolute in /home/codegocl/public_html/vendor/google/auth/src/OAuth2.php:805
+Stack trace:
+#0 /home/codegocl/public_html/vendor/google/auth/src/OAuth2.php(363): Google\Auth\OAuth2->setRedirectUri()
+#1 /home/codegocl/public_html/vendor/google/apiclient/src/Client.php(1076): Google\Auth\OAuth2->__construct()
+#2 /home/codegocl/public_html/vendor/google/apiclient/src/Client.php(1057): Google\Client->createOAuth2Service()
+#3 /home/codegocl/public_html/vendor/google/apiclient/src/Client.php(251): Google\Client->getOAuth2Service()
+#4 /home/codegocl/public_html/callback.php(22): Google\Client->fetchAccessTokenWithAuthCode()
+#5 {main}
+  thrown in /home/codegocl/public_html/vendor/google/auth/src/OAuth2.php on line 805
+[22-Dec-2023 01:48:35 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:48:53 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:49:32 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:49:33 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:49:34 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:49:36 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:53:04 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:53:25 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 01:54:00 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /home/codegocl/public_html/home.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/codegocl/public_html/home.php on line 9
+[22-Dec-2023 02:14:51 UTC] PHP Warning:  Attempt to read property "no" on null in /home/codegocl/public_html/api.php on line 85
+[22-Dec-2023 02:14:51 UTC] PHP Warning:  Attempt to read property "provider" on null in /home/codegocl/public_html/api.php on line 85
+[22-Dec-2023 02:19:01 UTC] Array
+(
+    [no] => gfhgfh
+    [provider] => 56546546
+)
+
+[22-Dec-2023 02:19:01 UTC] no=gfhgfh&provider=56546546
+[22-Dec-2023 02:24:15 UTC] PHP Warning:  Undefined array key "id" in /home/codegocl/public_html/api.php on line 97
+[22-Dec-2023 02:24:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/codegocl/public_html/api.php:55
+Stack trace:
+#0 /home/codegocl/public_html/api.php(55): mysqli->query()
+#1 /home/codegocl/public_html/api.php(98): updateHandphone()
+#2 {main}
+  thrown in /home/codegocl/public_html/api.php on line 55
+[22-Dec-2023 02:24:43 UTC] PHP Warning:  Undefined array key "id" in /home/codegocl/public_html/api.php on line 97
+[22-Dec-2023 02:24:43 UTC] PHP Warning:  Attempt to read property "no" on null in /home/codegocl/public_html/api.php on line 98
+[22-Dec-2023 02:24:43 UTC] PHP Warning:  Attempt to read property "provider" on null in /home/codegocl/public_html/api.php on line 98
+[22-Dec-2023 02:24:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/codegocl/public_html/api.php:55
+Stack trace:
+#0 /home/codegocl/public_html/api.php(55): mysqli->query()
+#1 /home/codegocl/public_html/api.php(98): updateHandphone()
+#2 {main}
+  thrown in /home/codegocl/public_html/api.php on line 55
+[22-Dec-2023 02:25:36 UTC] PHP Warning:  Undefined array key "id" in /home/codegocl/public_html/api.php on line 116
+[22-Dec-2023 02:25:36 UTC] PHP Warning:  Attempt to read property "no" on null in /home/codegocl/public_html/api.php on line 117
+[22-Dec-2023 02:25:36 UTC] PHP Warning:  Attempt to read property "provider" on null in /home/codegocl/public_html/api.php on line 117
+[22-Dec-2023 02:25:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/codegocl/public_html/api.php:55
+Stack trace:
+#0 /home/codegocl/public_html/api.php(55): mysqli->query()
+#1 /home/codegocl/public_html/api.php(117): updateHandphone()
+#2 {main}
+  thrown in /home/codegocl/public_html/api.php on line 55
+[22-Dec-2023 02:41:05 UTC] PHP Warning:  Undefined array key "id" in /home/codegocl/public_html/api.php on line 116
+[22-Dec-2023 02:41:05 UTC] PHP Warning:  Attempt to read property "no" on null in /home/codegocl/public_html/api.php on line 117
+[22-Dec-2023 02:41:05 UTC] PHP Warning:  Attempt to read property "provider" on null in /home/codegocl/public_html/api.php on line 117
+[22-Dec-2023 02:41:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/codegocl/public_html/api.php:55
+Stack trace:
+#0 /home/codegocl/public_html/api.php(55): mysqli->query()
+#1 /home/codegocl/public_html/api.php(117): updateHandphone()
+#2 {main}
+  thrown in /home/codegocl/public_html/api.php on line 55
