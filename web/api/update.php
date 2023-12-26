@@ -17,7 +17,7 @@
     
     $item->id = $data->id;
     
-    // employee values
+   
     $item->numberphone = $data->numberphone.'/'.$data->provider;
     
     if($item->updatePhone()){
