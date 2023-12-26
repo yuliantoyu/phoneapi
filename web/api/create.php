@@ -24,9 +24,9 @@ $item->numberphone = $data->numberphone.'/'.$data->provider;
 
 if ($item->create()) {
     http_response_code(201); // 201 Created
-    echo json_encode(array("message" => "Employee created successfully."));
+    echo json_encode(array("message" => "Phone created successfully."));
 } else {
     http_response_code(500); // 500 Internal Server Error
-    echo json_encode(array("message" => "Employee could not be created."));
+    echo json_encode(array("message" => "Phone could not be created."));
 }
 ?>
