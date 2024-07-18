@@ -1,7 +1,3 @@
-create rest full api phone number
-
-## Cara Menggunakan
-
 1. Clone repositori.
 2. Masuk ke direktori `web/config` untuk mengcustom setingan
 3. Buka file `database.php`  untuk menyesuaikan database
